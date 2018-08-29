@@ -1,0 +1,32 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+div.custom-content {
+  font-color: #333;
+  font-size: 1.5em;
+}
+
+a.custom-link {
+  color: #333;
+  font
+}
+
+div.four-ow-four {
+  margin-top: 15%;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.four-ow-four h1 {
+  font-size: 4em;
+  color: #333;
+}
+
+.four-ow-four p {
+  font-size: 1.5em;
+  color: #333;
+}
