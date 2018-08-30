@@ -1,5 +1,6 @@
 var express = require('express');
 var router = express.Router();
+var db = require('../lib/firebase');
 
 var config = {
   type: 'api',
@@ -10,7 +11,12 @@ var config = {
 };
 
 router.get('/', function(req, res, next) {
-  res.json(config);
+  res.render('index', {title: 'awesammcoder.github.io'});
 });
+
+router.get('/resume', function(req, res, next) {
+  res.json(db.get('resume'));
+});
+
 
 module.exports = router;
